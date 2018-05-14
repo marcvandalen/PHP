@@ -12,12 +12,5 @@
     <title>PHP Opdrachten</title>
 </head>
 <body>
-<?php
- function telop($a, $b) {
-     $c = $a + $b;
-     return $a. " + " .$b. " = ".$c;
- }
- echo telop(4,5);
-?>
 </body>
 </html>
