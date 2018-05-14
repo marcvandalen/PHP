@@ -13,12 +13,11 @@
 </head>
 <body>
 <?php
-$sporten = array("handbal", "korfbal", "hockey", "schaatsen");
-shuffle($sporten);
-echo "<li>Er zijn ".count($sporten)." sporten in de array</li>";
-foreach($sporten as $sport){
-    echo "<li>".$sport."</li>";
-}
+ function telop($a, $b) {
+     $c = $a + $b;
+     return $a. " + " .$b. " = ".$c;
+ }
+ echo telop(4,5);
 ?>
 </body>
 </html>
