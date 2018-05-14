@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3b059bcd-4e2b-4b9b-9746-ce15f61a7fbe" name="bitfrost.mediaopl.nl" url="http://bitfrost.mediaopl.nl/~marc_van_dalen/">
+        <fileTransfer host="bitfrost.mediaopl.nl" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
