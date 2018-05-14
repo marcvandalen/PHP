@@ -10,26 +10,15 @@
 <html>
 <head>
     <title>PHP Opdrachten</title>
-    <style>
-        body {
-            text-align:center;
-        }
-    </style>
 </head>
 <body>
 <?php
-$leeftijd = 2;
-$bedrag = 10;
-if($leeftijd > 65) {
-    $bedrag = $bedrag * 0.5;
+$sporten = array("handbal", "korfbal", "hockey", "schaatsen");
+shuffle($sporten);
+echo "<li>Er zijn ".count($sporten)." sporten in de array</li>";
+foreach($sporten as $sport){
+    echo "<li>".$sport."</li>";
 }
-if($leeftijd <= 12) {
-    $bedrag = $bedrag * 0.5;
-}
-if($leeftijd < 3) {
-    $bedrag = 0;
-}
-echo $bedrag;
 ?>
 </body>
 </html>
